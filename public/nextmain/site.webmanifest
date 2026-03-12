@@ -1,0 +1,95 @@
+{
+  "name": "SEO Agency",
+  "short_name": "SEO Agency",
+  "description": "Профессиональное SEO продвижение и оптимизация сайтов. Вывод в ТОП-3, рост трафика до 500%.",
+  "lang": "ru-RU",
+  "dir": "ltr",
+  "start_url": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#F3FDF6",
+  "theme_color": "#155DFC",
+  "orientation": "portrait-primary",
+  "categories": ["business", "marketing", "seo"],
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "apple-touch-icon"
+    },
+    {
+      "src": "/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/mstile-150x150.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-home.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Главная страница SEO Agency"
+    },
+    {
+      "src": "/screenshots/mobile-home.jpg",
+      "sizes": "750x1334",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Мобильная версия сайта"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Услуги SEO",
+      "short_name": "Услуги",
+      "description": "Наши SEO услуги и тарифы",
+      "url": "/#servers",
+      "icons": [
+        {
+          "src": "/icons/services-icon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Достижения",
+      "short_name": "О нас",
+      "description": "Наши достижения и результаты",
+      "url": "/#achievements-section",
+      "icons": [
+        {
+          "src": "/icons/achievements-icon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "scope": "/",
+  "prefer_related_applications": false
+}
